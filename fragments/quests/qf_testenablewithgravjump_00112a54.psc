@@ -1,0 +1,106 @@
+ScriptName Fragments:Quests:QF_TestEnableWithGravJump_00112A54 Extends Quest Const hidden
+
+;-- Variables ---------------------------------------
+
+;-- Properties --------------------------------------
+ReferenceAlias Property Alias_Ship Auto Const mandatory
+
+;-- Functions ---------------------------------------
+
+Function Fragment_Stage_0010_Item_00()
+  spaceshipreference myShip = Alias_Ship.GetRef() as spaceshipreference ; #DEBUG_LINE_NO:7
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:9
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:10
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:11
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:12
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:13
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:14
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:15
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:16
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:17
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:18
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:19
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:20
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:21
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:22
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:23
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:24
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:25
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:26
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:27
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:28
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:29
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:30
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:31
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:32
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:33
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:34
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:35
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:36
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:37
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:38
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:39
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:40
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:41
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:42
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:43
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:44
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:45
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:46
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:47
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:48
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:49
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:50
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:51
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:52
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:53
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:54
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:55
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:56
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:57
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:58
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:59
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:60
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:61
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:62
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:63
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:64
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:65
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:66
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:67
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:68
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:69
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:70
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:71
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:72
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:73
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:74
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:75
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:76
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:77
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:78
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:79
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:80
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:81
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:82
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:83
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:84
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:85
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:86
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:87
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:88
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:89
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:90
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:91
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:92
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:93
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:94
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:95
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:96
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:97
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:98
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:99
+  myShip.EnableWithGravJump() ; #DEBUG_LINE_NO:100
+  Utility.wait(5.0) ; #DEBUG_LINE_NO:101
+  myShip.disableWithGravJump() ; #DEBUG_LINE_NO:102
+EndFunction
