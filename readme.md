@@ -14,3 +14,5 @@ but don't let this stop you if you really want to see something done.
 this guide: [[Tutorial] Papyrus for Beginners](http://www.cipscis.com/skyrim/tutorials/beginners.aspx) will give you some of the basics of papyrus. its written for skyrim but skyrim and starfield are very closely related.
 
 after this, you could look at decompiling on your own (its good to learn) using this starfield specific mod/guide: [Papyrus decompile and compile command files](https://www.nexusmods.com/starfield/mods/3921)
+
+you could then reference [my own personal mod set](https://github.com/claydegruchy/starfield-modding) and read some of the random gripes and tips listed there.
